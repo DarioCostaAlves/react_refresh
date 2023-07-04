@@ -1,7 +1,11 @@
+import MyButton from "./components/Button";
+import "./styles/App.css";
+
 export default function App() {
   return (
     <div>
-      <h1>Olá React, sou o dário, recordas-te de mim?</h1>
+      <h1>Bem vindos á minha aplicação</h1>
+      <MyButton></MyButton>
     </div>
   );
 }
